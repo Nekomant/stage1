@@ -53,6 +53,7 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 13px;
+    margin-bottom: 0;
 }
 
 .chat__actions {
