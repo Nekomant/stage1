@@ -1,0 +1,28 @@
+{{#extend "empty"}}
+    {{#content "head"}}
+        <link href="../styles/views/auth.css" rel="stylesheet" />
+    {{/content}}
+    {{#content "content"}}
+        <main id="auth">
+            {{#extend "card"}}
+                {{#content "card-content"}}
+                    <form class="auth" action="">
+                        <div class="auth__fields">
+                            {{#each fields}}
+                                {{> input this}}
+                            {{/each}}
+                        </div>
+                        <div class="auth__actions"> 
+                            <div class="auth__submit">
+                                {{> button submit }}
+                            </div>
+                            <div class="auth__additional-action">
+                                <a href="{{link-url}}">{{link-text}}</a>
+                            </div>
+                        </div>
+                    </form>
+                {{/content}}
+            {{/extend}}
+        </main>
+    {{/content}}
+{{/extend}}

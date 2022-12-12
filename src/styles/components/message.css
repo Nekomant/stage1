@@ -1,0 +1,31 @@
+.message {
+    padding: 11px;
+    border-radius: 12px;
+    background-color: var(--base-container);
+    max-width: 70%;
+    margin-bottom: 10px;
+}
+
+.message__text {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.message__time {
+    font-size: 9px;
+    line-height: 18px;
+    color: var(--primary);
+    float: right;
+    margin-left: 10px;
+}
+
+
+.message_mine {
+    margin-left: auto;
+    background-color: var(--secondary);
+}
+
+.message_mine .message__time {
+    color: var(--accent);
+}

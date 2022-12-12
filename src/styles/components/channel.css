@@ -1,0 +1,67 @@
+.channel {
+    padding: 12px 10px 0 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.channel.channel_active {
+    background-color: var(--secondary);
+}
+
+.channel__avatar {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 47px;
+}
+
+.channel__body {
+    padding-right: 20px;
+    margin-left: 10px;
+    padding-bottom: 12px;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-bottom: 1px solid var(--secondary);
+}
+
+.channel__meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    flex-basis: 30px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: end;
+    border-bottom: 1px solid var(--secondary);
+    padding-bottom: 12px;
+}
+
+.channel__name {
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.channel__time {
+    font-size: 9px;
+    line-height: 13px;
+    color: var(--primary);
+}
+
+.channel__message {
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--primary);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.channel__author {
+    color: var(--base);
+    font-size: 12px;
+    line-height: 15px;
+}

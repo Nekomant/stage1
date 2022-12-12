@@ -1,0 +1,21 @@
+#auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 240px;
+}
+
+.auth__submit {
+    margin-bottom: 14px;
+}
+
+.auth__additional-action {
+    text-align: center;
+}
