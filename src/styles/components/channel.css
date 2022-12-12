@@ -42,6 +42,7 @@
     line-height: 13px;
     font-weight: 600;
     padding-bottom: 4px;
+    margin-bottom: 0;
 }
 
 .channel__time {
@@ -51,6 +52,7 @@
 }
 
 .channel__message {
+    margin-bottom: 0;
     font-size: 12px;
     line-height: 15px;
     color: var(--primary);
