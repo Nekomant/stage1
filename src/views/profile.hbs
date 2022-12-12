@@ -1,0 +1,51 @@
+---
+page-title: Профиль
+card-title: Редактирование профиля
+fields:
+    -
+        id: first_name
+        label: Имя
+        type: text
+        name: first_name
+    -
+        id: second_name
+        label: Фамилия
+        type: text
+        name: second_name
+    -
+        id: display-name
+        label: Имя в чате
+        type: text
+        name: display_name
+    -
+        id: login
+        label: Логин
+        type: text
+        name: login
+    -
+        id: email
+        label: Почта
+        type: text
+        name: email
+        placeholder: mail@box.com
+    -
+        id: phone
+        label: Телефон
+        type: text
+        name: phone
+        placeholder: +7 (900) 000 0000
+    -
+        id: oldPassword
+        label: Старый пароль
+        type: password
+        name: oldPassword
+    -
+        id: newPassword
+        label: Новый пароль
+        type: password
+        name: newPassword
+
+submit:
+    text: Сохранить
+---
+{{!< profile}}

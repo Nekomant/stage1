@@ -1,0 +1,5 @@
+{
+    "layouts": "src/layouts",
+    "partials": "src/components",
+    "pages": "./src/views"
+}

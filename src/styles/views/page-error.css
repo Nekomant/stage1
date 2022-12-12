@@ -1,0 +1,23 @@
+#ePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.ePage__code {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;    
+}
+
+.ePage__text {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 70px;
+}
+
+.ePage__link {
+    text-decoration: none;
+}
