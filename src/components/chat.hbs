@@ -1,0 +1,24 @@
+<main class="chat">
+    <div class="chat__header">
+        <div class="chat__user user">
+            <div class="user__avatar">
+                {{>avatar size=34}}
+            </div>
+            <p class="user__name">Сигизмунд</p>
+        </div>
+        <div class="chat__actions">
+
+        </div>
+    </div>
+    <div class="chat__messages">
+        {{#each messages}}
+            {{> message this}}
+        {{/each}}
+    </div>
+    <div class="chat__footer">
+        <div class="chat__form">
+            <input type="text" name="message" class="chat__input" placeholder="Сообщение">
+            <button class="chat__submit">Отправить</button>
+        </div>
+    </div>
+</main>

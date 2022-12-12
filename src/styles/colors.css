@@ -1,0 +1,13 @@
+:root {
+    --base: #1E1E1E;
+    --base-container: #EFEFEF;
+    --primary: #999999;
+    --primary-container: #FBFBFB;
+    --secondary: #E4EDFD;
+    --accent: #3369F3;
+    --accent-light: #4579fd;
+    --accent-dark: #2a5ad6;
+    --accent-container: #E4EDFD;
+    --accent-contrast: #FFFFFF;
+    --error: #FF2F2F;
+}

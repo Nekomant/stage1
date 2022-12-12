@@ -1,0 +1,27 @@
+.button {
+    border-radius: 8px;
+    border: none;
+    background-color: var(--accent);
+    color: var(--accent-contrast);
+    font-size: 13px;
+    height: 37px;
+    line-height: 13px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    transition: box-shadow .2s, color .2s;
+}
+
+.button:disabled {
+    background-color: var(--accent-light);
+}
+
+.button:hover:not(:disabled) {
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2),0 4px 5px 0  rgba(0, 0, 0, .14),0 1px 10px 0 rgba(0, 0, 0, .12);
+    background-color: var(--accent-dark);
+}
+
+
+.button:active:not(:disabled) {
+    background-color: var(--accent-light);
+}

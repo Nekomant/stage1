@@ -1,0 +1,12 @@
+{{#extend "empty"}}
+    {{#content "head"}}
+        <link href="../styles/views/page-error.css" rel="stylesheet" />
+    {{/content}}
+    {{#content "content"}}
+        <main id="ePage">
+            <h1 class="ePage__code">{{error-code}}</h1>
+            <p class="ePage__text">{{error-text}}</p>
+            <a href="/" class="ePage__link">на главную</a>
+        </main>
+    {{/content}}
+{{/extend}}

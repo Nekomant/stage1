@@ -1,0 +1,33 @@
+{{#extend "base"}}
+    {{#content "head"}}
+        <link href="../styles/views/profile.css" rel="stylesheet" />
+    {{/content}}
+    {{#content "body"}}
+        <aside class="sidebar">
+            <a href="./messenger.hbs" class="profile__backward">назад</a>
+        </aside>
+        <main class="profile">
+            {{#extend "card"}}
+                {{#content "card-content"}}
+                    <form class="profile__form">
+                        <div class="profile__avatar">
+                            <label>
+                                {{>avatar size=130}}
+                                <input type="file" name="avatar" class="avatar-upload" id="avatar">
+                            </label>
+                        </div>
+                        <h2 class="profile__title">Фёдор Филиппович Конюхов</h2>
+                        <div class="profile__fields">
+                            {{#each fields}}
+                                {{> input this}}
+                            {{/each}}
+                        </div>
+                        <div class="profile__submit">
+                            {{> button submit }}
+                        </div>
+                    </form>
+                {{/content}}
+            {{/extend}}
+        </main>
+    {{/content}}
+{{/extend}}

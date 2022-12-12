@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&display=swap');
+@import "./normalize.css";
+@import "./colors.css";
+@import "./typo.css";
+
+@import "./components/index.css";
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+form {
+    margin-block-end: 0;
+}

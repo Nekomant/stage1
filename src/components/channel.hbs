@@ -1,0 +1,17 @@
+<div class="channel {{#if isActive}}channel_active{{/if}}">
+    <div class="channel__avatar">
+        {{>avatar size=47 hash=time }}
+    </div>
+    <div class="channel__body">
+        <p class="channel__name">{{name}}</p>
+        <p class="channel__message">{{#if author}}<span class="channel__author">{{author}}: </span>{{/if}}{{message}}</p>
+    </div>
+    <div class="channel__meta">
+        <div class="channel__time">{{time}}</div>
+        {{#if unread}}
+            <div class="channel__unread chip">
+                {{unread}}
+            </div>
+        {{/if}}
+    </div>
+</div>

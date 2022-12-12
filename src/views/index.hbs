@@ -1,0 +1,37 @@
+---
+card-title: Список готовых страниц
+pages:
+    - 
+        title: Авторизация
+        url: ./login.hbs
+    - 
+        title: Регистрация
+        url: ./signup.hbs
+    - 
+        title: Непосредственно мессенджер
+        url: ./messenger.hbs
+    - 
+        title: Редактирование профиля
+        url: ./profile.hbs
+    - 
+        title: Ошибка 404
+        url: ./error-404.hbs
+    - 
+        title: Ошибка 500
+        url: ./error-500.hbs
+---
+{{#extend "empty"}}
+    {{#content "content"}}
+        <main>
+            {{#extend "card"}}
+                {{#content "card-content"}}
+                    <ul>
+                        {{#each pages}}
+                            <li><a href="{{url}}">{{title}}</a></li>
+                        {{/each}}
+                    </ul>
+                {{/content}}
+            {{/extend}}
+        </main>
+    {{/content}}
+{{/extend}}

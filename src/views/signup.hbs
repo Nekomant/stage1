@@ -1,0 +1,44 @@
+---
+page-title: Регистрация
+card-title: Регистрация
+fields:
+    -
+        id: email
+        label: Почта
+        type: text
+        name: email
+        placeholder: mail@box.com
+    -
+        id: login
+        label: Логин
+        type: text
+        name: login
+    -
+        id: first_name
+        label: Имя
+        type: text
+        name: first_name
+    -
+        id: second_name
+        label: Фамилия
+        type: text
+        name: second_name
+    -
+        id: phone
+        label: Телефон
+        type: text
+        name: phone
+        placeholder: +7 (900) 000 0000
+    -
+        id: password
+        label: Пароль
+        type: password
+        name: password
+
+submit:
+    text: Зарегистрироваться
+    
+link-text: Войти
+link-url: ./login.hbs
+---
+{{!< auth}}

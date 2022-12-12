@@ -1,0 +1,19 @@
+.search {
+    position: relative;
+    width: 100%;
+    background-color: var(--base-container);
+    border-radius: 5px;
+    padding: 0 12px;
+    box-sizing: border-box;
+    margin: 0;
+    height: 32px;
+}
+
+.search__input {
+    background-color: transparent;
+    border: none;
+    line-height: 32px;
+    font-size: 12px;
+    outline: none;
+    width: auto;
+}

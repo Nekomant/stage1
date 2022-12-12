@@ -1,0 +1,12 @@
+.chip {
+    height: 20px;
+    border-radius: 10px;
+    min-width: 20px;
+    padding: 4px;
+    background-color: var(--accent);
+    color: var(--accent-contrast);
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}

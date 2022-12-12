@@ -1,0 +1,52 @@
+.sidebar {
+    width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+
+.profile__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__avatar {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.avatar-upload {
+    position: absolute;
+    width: 1;
+    height: 1;
+    opacity: 0;
+    z-index: -1;
+}
+
+.profile__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.profile__fields {
+    width: 100%;
+}
+
+.profile__submit {
+    width: 100%;
+}
